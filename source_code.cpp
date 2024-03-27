@@ -51,7 +51,7 @@ bool itcontainzero(int grid[][9],int& row,int& column){
 int main(){
     //int input;
 int arr[9];
- int grid[9][9];
+ int grid[9][9];//this is a grid of sudoku
      int input;
     for(int i=0;i<9;i++){     
         for(int j=0;j<9;j++){
@@ -64,14 +64,8 @@ int arr[9];
          }
      }
  if(sudokusolver(grid))
-//      for(int i=0;i<9;i++){
-//          for(int j=0;j<9;j++){
-//              cout<<grid[i][j]<<" ";
-//          }
-//          cout<<endl;
-//      }}
  cout<<"true";   
-    else 
-        cout<<"false";
+    else
+     cout<<"false";
     return 0;
 }
